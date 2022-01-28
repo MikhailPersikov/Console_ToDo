@@ -9,7 +9,7 @@ function changeStatus(task, status) {
 }
 
 function addTask(task) {
-    list[task] = null;
+    list[task] = 'To Do';
 };
 
 function deleteTask(task) {
